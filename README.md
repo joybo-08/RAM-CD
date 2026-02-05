@@ -79,10 +79,23 @@ python eval_cd.py --split ${split} --checkpoint_name ${checkpoint_name} --gpu_id
 ```
 """
 Change detection data set with pixel-level binary labels；
-├─A
-├─B
-├─label
-└─list
+list
+train
+  ├─A
+  ├─B
+  ├─label
+  └─list
+val
+  ├─A
+  ├─B
+  ├─label
+  └─list
+test
+  ├─A
+  ├─B
+  ├─label
+  └─list
+
 """
 ```
 
